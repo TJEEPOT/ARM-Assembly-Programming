@@ -11,12 +11,12 @@ For example, if our textfile.txt contained the word 'message', our first key was
 * The final value is corrected to ensure it remains between 1 and 26 by adding 26 and 2 is added to get the corrected final value (20), which is converted to it's ASCII character value 't'.
 
 This then continues character by character for the rest of the streamed word:
-'e' - ('o' - 'e' + 2) + 2 = 'o'
+<pre><code>'e' - ('o' - 'e' + 2) + 2 = 'o'
 'y' - ('c' - 's' + 2) + 2 = 'u'
 'k' - ('k' - 's' + 2) + 2 = 'a'
 'e' - ('l' - 'a' + 2) + 2 = 'n'
 'y' - ('o' - 'g' + 2) + 2 = 'w'
-'k' - ('c' - 'e' + 2) + 2 = 'u'
+'k' - ('c' - 'e' + 2) + 2 = 'u'</code></pre>
 
 Decryption does this same process but in reverse.
 
