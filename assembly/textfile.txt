@@ -1,0 +1,3 @@
+Message One(1): This is a message to test that the cypher program works.
+
+The quick brown fox jumped over the lazy dog.
